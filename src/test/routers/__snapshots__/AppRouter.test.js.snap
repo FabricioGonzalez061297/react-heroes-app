@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <AppRouter/> debe de mostrar login sino esta autenticado 1`] = `
+<div>
+  <div
+    className="container mt-5"
+  >
+    <form>
+      <div
+        className="imgcontainer"
+      >
+        <img
+          alt="user"
+          className="avatar"
+          src="https://img.icons8.com/bubbles/2x/user-male.png"
+        />
+      </div>
+      <div
+        className="container_app"
+      >
+        <label
+          htmlFor="uname"
+        >
+           
+          <b>
+            Usuario
+          </b>
+        </label>
+        <input
+          name="uname"
+          placeholder="Ingrese su usuario"
+          type="text"
+        />
+        <label
+          htmlFor="pwd"
+        >
+           
+          <b>
+            Contraseña
+          </b>
+           
+        </label>
+        <input
+          name="pwd"
+          placeholder="Ingrese su contraseña"
+          type="password"
+        />
+        <button
+          className="login"
+          onClick={[Function]}
+          type="button"
+        >
+            Ingresar
+        </button>
+        <label
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+           
+          <input
+            name="remenber"
+            type="checkbox"
+          />
+           Recordarme 
+        </label>
+      </div>
+      <div />
+    </form>
+  </div>
+</div>
+`;
